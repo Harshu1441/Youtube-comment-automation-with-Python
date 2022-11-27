@@ -202,7 +202,7 @@ if __name__ == '__main__':
 
         # checking if we have links or not
         if urls == []:
-            print("There is not videos for this keyword at the moment")
+            print("There is no videos for this keyword ")
         else:
             comment_page(driver, urls, random_comment())
 
